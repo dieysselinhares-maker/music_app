@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Player Music </title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1> &#x1F3BC; FestMusic</h1>
+
+<img id="capa" src="" width="200">
+<h2 id="nomeMusica">Nenhuma música</h2>
+
+<audio id="player"></audio>
+
+<input type="range" id="progresso" value="0">
+
+<br>
+<button onclick="anterior()">⏮️</button>
+<button onclick="tocar()">▶️</button>
+<button onclick="pausar()">⏸️</button>
+<button onclick="proxima()">⏭️</button>
+
+<h3>Playlist</h3>
+<ul id="playlist"></ul>
+
+<h3> &#x1F49B; Favoritos</h3>
+<ul id="favoritos"></ul>
+
+<script src="script.js"></script>
+</body>
+</html>
